@@ -1,0 +1,16 @@
+import com.niit.sirassignment;
+
+public class Test1 {
+
+public static void main(String[] args) {
+		
+		pojo1 p = new pojo1();
+		
+		System.out.println(  p.getId());
+		System.out.println(  p.getName());
+		System.out.println(  p.getAddress());
+		System.out.println(  p.getMob_No());
+		System.out.println("Table is created");
+}
+
+}

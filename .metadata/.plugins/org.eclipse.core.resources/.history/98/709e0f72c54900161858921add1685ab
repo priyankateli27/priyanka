@@ -1,0 +1,65 @@
+<%@page import="com.niit.sirassignment.*" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="container">
+  <h2>NIIT STUDENTS</h2>
+  <p>Student Record:</p>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>ADDRESS</th>
+        <th>MOBILE NO.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>101</td>
+        <td>Priya</td>
+        <td>Kalyan</td>
+        <td>7786588765</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Tejas</td>
+        <td>Kalyan</td>
+        <td>7654356470</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Rutuja</td>
+        <td>Aurangabad</td>
+        <td>9987674564</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+	  <%! Pojo p = new Pojo(); %>
+	<%
+	  
+		p.setId();
+		p.setName();
+		p.setAddress();
+		p.setMob_NO();
+		%>
+		<% %> p.getId();
+		 p.getName();
+		 p.getAddress();
+		 p.getMob_No();
+		System.out.println("Table is created");
+ %> 
+
+
+</body>
+</html>

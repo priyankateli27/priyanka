@@ -1,0 +1,19 @@
+package com.niit.sirassignment;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Pojo c= (Pojo) context.getBean("Pojo");
+		
+		c.setId("101");
+		c.setName("mobile");
+		
+		System.out.println(  c.getId());
+		System.out.println(  c.getName());
+		
+				
+		System.out.println("Table is created");
+		
+	}
+}

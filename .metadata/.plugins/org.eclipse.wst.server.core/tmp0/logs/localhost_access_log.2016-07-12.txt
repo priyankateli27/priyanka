@@ -1,0 +1,16 @@
+127.0.0.1 - - [12/Jul/2016:18:06:52 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:06:53 +0530] "GET /Apple/ HTTP/1.1" 200 5635
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:07:11 +0530] "GET /Apple/Login.html HTTP/1.1" 200 346
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:07:21 +0530] "POST /Apple/LoginController HTTP/1.1" 404 1024
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:07:59 +0530] "POST /Apple/LoginController HTTP/1.1" 200 385
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:08:32 +0530] "POST /Apple/LoginController HTTP/1.1" 404 1024
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:10:58 +0530] "POST /Apple/LoginController HTTP/1.1" 404 1024
+127.0.0.1 - - [12/Jul/2016:18:12:43 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:12:51 +0530] "POST /Apple/LoginController HTTP/1.1" 404 1024
+127.0.0.1 - - [12/Jul/2016:18:16:14 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:16:30 +0530] "POST /Apple/LoginController HTTP/1.1" 200 385
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:16:44 +0530] "POST /Apple/LoginController HTTP/1.1" 404 1024
+127.0.0.1 - - [12/Jul/2016:18:19:03 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:19:16 +0530] "POST /Apple/LoginController HTTP/1.1" 200 385
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:19:25 +0530] "POST /Apple/LoginController HTTP/1.1" 200 146
+0:0:0:0:0:0:0:1 - - [12/Jul/2016:18:33:40 +0530] "GET /Apple/index.html HTTP/1.1" 200 5635

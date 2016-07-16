@@ -1,0 +1,27 @@
+package com.niit.sirassignment;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.niit.sirassignment.Pojo;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		AnnotationConfigApplicationContext context= new AnnotationConfigApplicationContext();
+		context.scan("com.niit.sirassignment");
+		context.refresh();
+		
+		Pojo c= (Pojo) context.getBean("Pojo");
+		
+		c.setId("101");
+		c.setName("mobile");
+		
+		System.out.println(  c.getId());
+		System.out.println(  c.getName());
+		
+				
+		System.out.println("Category is created");
+		
+	}
+}

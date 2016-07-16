@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="8">
+    <list key="modules" value0="Apple::org.eclipse.jst.j2ee.server:Apple::jst.web::2.3" value1="ShoppingCartWeb::org.eclipse.jst.j2ee.server:ShoppingCartWeb::jst.web::2.3" value2="SirAssignment::org.eclipse.jst.j2ee.server:SirAssignment::jst.web::2.3"/>
+  </server>
+</servers>
