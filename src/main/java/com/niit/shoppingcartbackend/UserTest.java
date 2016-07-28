@@ -19,7 +19,7 @@ public class UserTest {
 		user.setName("GC121");
 		user.setPassword("********");
 		user.setMobile(999999999);
-		user.setMail("priyanka.teli27@gmail.com");
+		user.setEmail("priyanka.teli27@gmail.com");
 		user.setAddress("Kalyan");
 		
 		userDAO.saveOrUpdate(user);

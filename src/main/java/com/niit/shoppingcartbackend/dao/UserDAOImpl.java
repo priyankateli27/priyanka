@@ -52,6 +52,23 @@ public class UserDAOImpl implements UserDAO {
 		}
 		return null;
 	}
+	@Transactional
+	public boolean isValidCredentials(String name,String password)
+	{
+		//select * from User where id= 'niit' and password= 'niit' 
+		String hql = "from User where id = '" 
+				+ name + "' and password = '" + password + "'";
+		Query q= sessionFactory.getCurrentSession().createQuery(hql);
+		List list= q.list();
+		if(list == null || list.isEmpty())
+		{
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
 
 	@Transactional
 	public List<User> list() {
@@ -59,6 +76,12 @@ public class UserDAOImpl implements UserDAO {
 		List<User> listUser = (List<User>) sessionFactory.getCurrentSession().createCriteria(User.class)
 				.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY).list();
 		return listUser;
+	}
+	public boolean isValidUser(String userID, String password) {
+		// TODO Auto-generated method stub
+		
+		
+		return false;
 	}
 
 	

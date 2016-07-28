@@ -1,4 +1,5 @@
 package com.niit.shoppingcartbackend.model;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -14,8 +15,9 @@ public class User
 	private String name;
 	private String password;
 	private int mobile;
-	private String mail;
+	private String email;
 	private String address;
+
 	public String getId() {
 		return id;
 	}
@@ -40,11 +42,11 @@ public class User
 	public void setMobile(int mobile) {
 		this.mobile = mobile;
 	}
-	public String getMail() {
-		return mail;
+	public String getEmail() {
+		return email;
 	}
-	public void setMail(String mail) {
-		this.mail = mail;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	public String getAddress() {
 		return address;
@@ -53,5 +55,15 @@ public class User
 		this.address = address;
 	}
 	
+	@Column(name="admin", columnDefinition="tinyinit default 0")
+	private byte admin;
 
+	public byte getAdmin()
+	{
+		return admin;
+	}
+	public void setAdmin(byte admin)
+	{
+		this.admin = admin;
+	}
 }
